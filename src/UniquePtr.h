@@ -101,7 +101,7 @@ public:
     }
 
     // checks if the raw pointer is non-empty
-    explicit operator bool() const{ //used chatGPT to find the keyword explicit then used https://www.geeksforgeeks.org/cpp/use-of-explicit-keyword-in-cpp/?utm_source=chatgpt.com to find how and why to use it
+    operator bool() const{ //used chatGPT to find the keyword explicit then used https://www.geeksforgeeks.org/cpp/use-of-explicit-keyword-in-cpp/?utm_source=chatgpt.com to find how and why to use it
         return ptr!=nullptr;
     }
 };
